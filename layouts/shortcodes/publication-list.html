@@ -1,0 +1,5 @@
+<div class="publications-container">
+    {{ range $.Site.Data.publications }}
+        {{partial "component/publication" . }}
+    {{ end }}
+</div>

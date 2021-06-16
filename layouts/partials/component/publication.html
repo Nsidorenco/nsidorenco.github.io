@@ -1,0 +1,20 @@
+<div class="publication">
+
+    {{ if .year}}
+      {{.year}}
+    {{ end }}
+
+    {{ if .title }}
+      {{.title}}
+    {{ else }}
+      {{ errorf "Invalid publication entry: no title"}}
+    {{ end }}
+
+    {{ if .place }}
+      {{.place}}
+    {{end}}
+
+    {{ if .extra }}
+      {{.extra}}
+    {{end}}
+</div>
