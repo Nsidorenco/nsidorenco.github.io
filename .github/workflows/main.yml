@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
-          deploy_key: ${{ secrets.SECRET_LEY }}
+          deploy_key: ${{ secrets.DEPLOY_KEY_SECRET }}
           publish_dir: ./public
