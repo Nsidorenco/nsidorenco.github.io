@@ -28,4 +28,5 @@ jobs:
         if: github.ref == 'refs/heads/master'
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY_SECRET }}
+          cname: nsidorenco.com
           publish_dir: ./public
