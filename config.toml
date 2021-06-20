@@ -1,4 +1,4 @@
-baseURL = "http://nsidorenco.com/"
+baseURL = "https://nsidorenco.com/"
 languageCode = "en-us"
 title = "Nikolaj Sidorenco"
 theme = "researcher"
