@@ -1,20 +1,12 @@
 <div class="publication">
 
-    {{ if .year}}
-      {{.year}}
-    {{ end }}
+    <b> {{.year}} </b>
 
     {{ if .title }}
-      {{.title}}
+      <a href="{{.url}}"> {{.title}}. </a>
     {{ else }}
       {{ errorf "Invalid publication entry: no title"}}
     {{ end }}
 
-    {{ if .place }}
-      {{.place}}
-    {{end}}
-
-    {{ if .extra }}
-      {{.extra}}
-    {{end}}
+    <a href="{{.place.url}}"> ({{.place.name}})</a>
 </div>

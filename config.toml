@@ -1,4 +1,4 @@
-baseURL = "http://nsidorenco.github.io/"
+baseURL = "http://nsidorenco.com/"
 languageCode = "en-us"
 title = "Nikolaj Sidorenco"
 theme = "researcher"
@@ -6,6 +6,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   author = "Nikolaj Sidorenco"
+  favicon = "favicon.ico"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     pageWidth = "750px"
