@@ -1,0 +1,10 @@
+[
+    {"date": "2021, June",
+     "place": {"name": "Aarhus University LogSem Seminar",
+               "url": "https://logsem.github.io"}
+    },
+    {"date": "2021, May",
+     "place": {"name": "ZKProof Workshop 4"},
+     "video": "https://youtu.be/E9oBq09n3Q8"
+    }
+]

@@ -1,10 +1,10 @@
 [
     {"title": "Formal security analysis of MPC-in-the-head-based Zero-Knowledge",
-     "url": "https://eprint.iacr.org/2021/437",
+     "url": "https://www.google.com",
      "year": 2021,
-     "place": {"name": "CSF2021", "url": "https://www.ieee-security.org/TC/CSF2021/index.html"},
+     "place": {"name": "CSF2021", "url": ""},
      "authors": [
-         {"name": "Nikolaj Sidorenco"},
+         {"name": "Nikolaj Sidorenco", "url": ""},
          {"name": "Sabine Oescher", "url": ""},
          {"name": "Bas Spitters", "url": ""}
      ]

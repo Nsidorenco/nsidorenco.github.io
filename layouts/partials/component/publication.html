@@ -1,12 +1,21 @@
-<div class="publication">
+<li class="publication-item">
 
-    <b> {{.year}} </b>
+    <b> {{ .year }} </b>
 
     {{ if .title }}
-      <a href="{{.url}}"> {{.title}}. </a>
+      {{ .title }}
     {{ else }}
       {{ errorf "Invalid publication entry: no title"}}
     {{ end }}
 
-    <a href="{{.place.url}}"> ({{.place.name}})</a>
-</div>
+    <a href="{{ .place.url }}"> ({{ .place.name }})</a>
+    {{ if .eprint }}
+      <a href="{{ .eprint }}"> [eprint] </a>
+    {{ end }}
+
+    <p style="color: lightgrey">
+        {{ $num_authors := sub (len .authors) 1 }}
+        {{ range $i, $e := .authors }}{{ if eq $num_authors $i}}, and {{ else if $i }}, {{ end }}{{ $e.name }}{{ end }}
+    </p>
+
+</li>
