@@ -2,7 +2,7 @@
 
 ** About Me
 
-{{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
+{{< figure class="avatar" src="/img/avatar.jpg" alt="avatar">}}
 
 I am a PhD student at the department of computer science at Aarhus University.
 I am supervised by [[https://users-cs.au.dk/spitters/][Bas Spitters]].
