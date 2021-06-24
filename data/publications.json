@@ -1,6 +1,6 @@
 [
     {"title": "Formal security analysis of MPC-in-the-head-based Zero-Knowledge",
-     "url": "https://eprint.iacr.org/2021/437",
+     "eprint": "https://eprint.iacr.org/2021/437",
      "year": 2021,
      "place": {"name": "CSF2021", "url": "https://www.ieee-security.org/TC/CSF2021/index.html"},
      "authors": [
