@@ -10,4 +10,4 @@ title: "Contact"
 
 ## Social
 
-1. [[https://www.github.com/nsidorenco][Github]]
+1. [Github](https://www.github.com/nsidorenco "Github")
