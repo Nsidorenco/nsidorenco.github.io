@@ -4,7 +4,7 @@ title: "About"
 
 ## About Me
 
-{{< figure class="avatar" src="/img/avatar.webp" alt="Nikolaj Sidorenco avatar">}}
+{{< figure class="avatar" src="/img/avatar.jpg" alt="Nikolaj Sidorenco avatar">}}
 
 I am a PhD student at the department of computer science at Aarhus University.
 My supervisor is [Bas Spitters](https://users-cs.au.dk/spitters/ "Bas Spitters").
